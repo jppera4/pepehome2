@@ -1,0 +1,10 @@
+.bigBackgroundImg {
+   background-image: url(../imagens/pepeheader.png);
+   
+    background-size: cover;
+}
+
+
+.card {
+    height: 400px; /* Adjust the height value as needed */
+}

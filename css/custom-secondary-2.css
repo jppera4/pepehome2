@@ -1,0 +1,214 @@
+ 
+	#mybutton {
+		position: fixed;
+		bottom: -4px;
+		right: 10px;
+	}
+	
+	.btn-merch {
+		background: #ff6d40;
+		color: #fff;
+	}
+
+	.btn-merch:hover {
+		background: #f84914;
+		color: #fff;
+	}
+
+	.btn-certik {
+		background: #ff4040;
+		color: #fff;
+		display: inline-block;
+		padding: 9px 30px 9px 30px;
+		border-radius: 10px;
+		transition: none;
+		font-size: 16px;
+		font-weight: 400;
+		font-family: "Nunito", sans-serif;
+		font-weight: 600;
+		transition: 0.3s;
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	}
+	a.shiny {
+	  background: #ff4040;
+	  background: linear-gradient(-45deg, #ff4040 50%, #e5b2b2 60%, #ff4040 70%);
+	  background-size: 600% 100%;
+	  -webkit-animation: shine 20s infinite;
+			  animation: shine 20s infinite;
+	  -webkit-animation-delay: 0s;
+			  animation-delay: 0s;
+	  -webkit-animation-timing-function: linear;
+			  animation-timing-function: linear;
+	}
+	a.shiny:hover {
+	  background: #ee0505;
+	  background: linear-gradient(-45deg, #ee0505 50%, #e5b2b2 60%, #ee0505 70%);
+	  background-size: 600% 100%;
+	  -webkit-animation: shine 20s infinite;
+			  animation: shine 20s infinite;
+	  -webkit-animation-delay: 0s;
+			  animation-delay: 0s;
+	  -webkit-animation-timing-function: linear;
+			  animation-timing-function: linear;
+	}
+	a.shiny:active {
+	  top: 2px;
+	}
+	
+	@-webkit-keyframes shine {
+	  0% {
+		background-position-x: 400%;
+	  }
+	  50% {
+		background-position-x: 0%;
+	  }
+	  100% {
+		background-position-x: -400%;
+	  }
+	}
+	
+	@keyframes shine {
+	  0% {
+		background-position-x: 400%;
+	  }
+	  50% {
+		background-position-x: 0%;
+	  }
+	  100% {
+		background-position-x: -400%;
+	  }
+	}
+
+	.btn-white {
+		background: #e4e4e4;
+		color: #1f0921;
+	}
+
+	.btn-white:hover {
+		background: #b3b3b3;
+		color: #1f0921;
+	}
+	
+	.btn-lang{
+		text-align: left !important;
+		padding-left: 30px !important;
+	}
+	.btn-lang span{
+		padding-left: 10px;
+	}
+	.btn-lang img{
+		width: 30px;
+		border-radius: 20px;
+		border: 2px solid #ddd;
+	}
+
+	.btn-lang-img{
+		width: 20px;
+		border-radius: 10px;
+		border: 2px solid #ddd;
+	}
+
+	.inprogress {
+		-webkit-filter: blur(5px);
+		-moz-filter: blur(5px);
+		-o-filter: blur(5px);
+		-ms-filter: blur(5px);
+		filter: blur(5px);
+		opacity: 0.3;
+	}
+
+	.inprogress-text {
+		position: absolute;
+		top: 50%;
+		left: 35%;
+		text-align: center;
+		transform: translate(-50%, -50%);
+		transform: rotate(12deg);
+		color: #ff6600;
+		border: 1rem double #ff6600;
+		font-size: 3rem;
+		font-weight: 700;
+		display: inline-block;
+		text-transform: uppercase;
+		border-radius: 1rem;
+		font-family: 'Courier';
+		-webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+		-webkit-mask-size: 944px 604px;
+		mix-blend-mode: multiply;
+		z-index: 20;
+	}
+	.inprogress-text-2 {
+		position: absolute;
+		top: 50%;
+		left: 35%;
+		text-align: center;
+		transform: translate(-50%, -50%);
+		transform: rotate(-19deg);
+		color: #ff6600;
+		border: 1rem double #ff6600;
+		font-size: 3rem;
+		font-weight: 700;
+		display: inline-block;
+		text-transform: uppercase;
+		border-radius: 1rem;
+		font-family: 'Courier';
+		-webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+		-webkit-mask-size: 944px 604px;
+		mix-blend-mode: multiply;
+		z-index: 20;
+	}
+	.inprogress-text-3 {
+		position: absolute;
+		top: 50%;
+		left: 35%;
+		text-align: center;
+		transform: translate(-50%, -50%);
+		transform: rotate(-9deg);
+		color: #ff6600;
+		border: 1rem double #ff6600;
+		font-size: 3rem;
+		font-weight: 700;
+		display: inline-block;
+		text-transform: uppercase;
+		border-radius: 1rem;
+		font-family: 'Courier';
+		-webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+		-webkit-mask-size: 944px 604px;
+		mix-blend-mode: multiply;
+		z-index: 20;
+	}
+	.inprogress-text-4 {
+		position: absolute;
+		top: 40%;
+		left: 10%;
+		text-align: center;
+		transform: translate(-50%, -50%);
+		transform: rotate(-9deg);
+		color: #ff6600;
+		border: 1rem double #ff6600;
+		font-size: 3rem;
+		font-weight: 700;
+		display: inline-block;
+		text-transform: uppercase;
+		border-radius: 1rem;
+		font-family: 'Courier';
+		-webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+		-webkit-mask-size: 944px 604px;
+		mix-blend-mode: multiply;
+		z-index: 20;
+	}
+
+
+	.icon-image {
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		margin-bottom: 6px;
+	}
+
+	.icon-image-foot {
+		height: 20px;
+		width: 20px;
+		border-radius: 50%;
+		margin-bottom: 4px;
+	}
